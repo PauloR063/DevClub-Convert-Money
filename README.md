@@ -32,5 +32,5 @@ Este projeto consiste em uma aplicação web interativa para conversão de valor
 Este projeto foi desenvolvido por **PauloR063**, com o objetivo de oferecer uma solução simples e eficiente para conversão de moedas.
 
 ---
-**Licença:** Este projeto está licenciado sob a [Licença MIT](LICENSE).
+**Licença:** Este projeto está licenciado sob a [Licença MIT](https://github.com/PauloR063).
 
