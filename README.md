@@ -34,3 +34,16 @@ Este projeto foi desenvolvido por **PauloR063**, com o objetivo de oferecer uma 
 ---
 **Licença:** Este projeto está licenciado sob a [Licença MIT](https://github.com/PauloR063).
 
+---
+
+### Modelos
+
+<div style="text-align: center;" align="center">
+<img src="https://github.com/PauloR063/DevClub-Convert-Money/blob/main/assets/Iphone.png" alt="Descrição da Imagem 1" width="200">
+<br>
+<img src="https://github.com/PauloR063/DevClub-Convert-Money/blob/main/assets/PC.png" alt="Descrição da Imagem 1" width="400">
+  
+  
+<div/>
+
+
