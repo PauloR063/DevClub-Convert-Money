@@ -42,8 +42,6 @@ Este projeto foi desenvolvido por **PauloR063**, com o objetivo de oferecer uma 
 <img src="https://github.com/PauloR063/DevClub-Convert-Money/blob/main/assets/Iphone.png" alt="Descrição da Imagem 1" width="200">
 <br>
 <img src="https://github.com/PauloR063/DevClub-Convert-Money/blob/main/assets/PC.png" alt="Descrição da Imagem 1" width="400">
-  
-  
 <div/>
 
 
