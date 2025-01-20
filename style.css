@@ -42,7 +42,8 @@
     font-weight: 700;
     font-size: 16px;
     color: #555555;
-    cursor: pointer;}
+    cursor: pointer;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);}
 
   button {
     font-weight: 700;
@@ -53,7 +54,8 @@
     border-radius: 5px;
     border: none;
     color: #FFFFFF;
-    cursor: pointer;}
+    cursor: pointer;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);}
 
   button:hover {
       opacity: 0.9;
