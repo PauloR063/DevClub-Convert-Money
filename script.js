@@ -10,6 +10,7 @@ function convertValues() {
     const euroToday = 6.19
     const bitcoinToday = 620014
     const libraToday =  7.43
+    const yuanToday = 1.294
 
     if (currencySelect.value == "libra") {
         currencyValued.innerHTML = new Intl.NumberFormat("en-GB", {
@@ -34,12 +35,19 @@ function convertValues() {
         }).format(inputCurrencyValue / dolarToday)
     }
 
-
     if (currencySelect.value == "euro") 
-        currencyValued.innerHTML = new Intl.NumberFormat('en-IE', {
+        currencyValued.innerHTML = new Intl.NumberFormat("en-IE", {
         style: 'currency',
-        currency: 'EUR',
+        currency: "EUR",
         }).format(inputCurrencyValue / euroToday)
+
+    if (currencySelect.value == "yuan") {
+        currencyValued.innerHTML = new Intl.NumberFormat("zh-CN", {
+        style: "currency",
+        currency: "CNY",
+        }).format(inputCurrencyValue * yuanToday)
+    
+        }
 
 
     currencyValueToConvert.innerHTML = new Intl.NumberFormat("pt-BR", {
@@ -65,13 +73,15 @@ function changeCurrency(){
         currencyName.innerHTML = "Euro"
         currencyImage.src = "./assets/Euro.png"
 }
-if (currencySelect.value == "libra"){
-    currencyName.innerHTML = "Libra"
-    currencyImage.src = "./assets/libra.png"
-}
+    if (currencySelect.value == "libra"){
+        currencyName.innerHTML = "Libra"
+        currencyImage.src = "./assets/libra.png"
+    }
 
-
-    
+    if (currencySelect.value == "yuan"){
+        currencyName.innerHTML = "Yuan"
+        currencyImage.src = "./assets/china.jpg"
+    }    
 
     convertValues()
 }
